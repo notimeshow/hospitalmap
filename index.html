@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Load URL Inside Page</title>
-  <script>
-  window.location.href='https://www.google.ng/maps/search/hospitals+near+me/@6.5109193,3.3914864,12z/data=!3m1!4b1?entry=ttu';
-  </script>
+  <title>Load Hospitals Nearby</title>
+  <style>
+  .btn{
+padding:12px 70px;
+  background:blue;
+  color:white;
+  text-decoration:none;
+  font-szie:20px;
+  font-weight:bolder;
+  border-radius:3px 3px 3px;
+  
+  }
+  
+  .main{
+   margin: auto;
+   margin-top:200px;
+  width: 100%;
+  text-align:center;
+  }
+  .bb{
+  width:100%;
+  height:auto;
+  background-image:url('back.png');
+  background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+  }
+  </style>
 </head>
-<body>
-<a href="https://www.google.ng/maps/search/hospital/@6.5109615,3.391487,12z/data=!3m1!4b1?entry=ttu">hospital near me</a>
-  <h1>My Web Page</h1>
-  <iframe src="https://www.google.ng/maps/search/hospital/@6.5109615,3.391487,12z/data=!3m1!4b1?entry=ttu" width="100%" height="500px"></iframe>
+<body class="bb">
+<div class="main">
+<h1>Search Nearby Hospitals</h1>
+<hr>
+<br>
+<a href="map.html" class="btn">Search</a>
+</div>
+
+
 </body>
 </html>
